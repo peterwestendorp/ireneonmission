@@ -1,6 +1,8 @@
+html, body { margin: 0; padding: 0; }
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: #373737;
 }
 
 h1, h2, h3 {
@@ -22,6 +24,7 @@ blockquote::after {
 
 .header {
   min-height: 500px;
+  overflow: hidden;
   background-image: url(../images/header1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +35,9 @@ blockquote::after {
 }
 
 .content {
-  margin: 0 5%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
 div.two-blocks {
@@ -47,4 +52,12 @@ div.block {
   div.two-blocks {
     display: block;
   }
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 10px 0;
+  font-size: 10px;
+  background-color: #2E2E2E;
+  color: #CECECE;
 }
