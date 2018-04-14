@@ -1,0 +1,50 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Slabo 27px', serif;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+blockquote::before {
+  content: '"';
+}
+blockquote::after {
+  content: '"';
+}
+
+.header {
+  min-height: 500px;
+  background-image: url(../images/header1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h1 {
+  color: #FFF;
+  text-align: center
+}
+
+.content {
+  margin: 0 5%;
+}
+
+div.two-blocks {
+  display: flex;
+}
+
+div.block {
+  margin: 10px;
+}
+
+@media only screen and (max-device-width: 812px) {
+  div.two-blocks {
+    display: block;
+  }
+}
