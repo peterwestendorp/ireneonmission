@@ -10,10 +10,11 @@ h1, h2, h3 {
 }
 
 blockquote {
-  margin: 0;
+  margin: 2em 0;
   font-size: 20px;
   font-style: italic;
   text-align: center;
+  color: #AAA;
 }
 blockquote::before {
   content: '"';
@@ -29,9 +30,10 @@ blockquote::after {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header h1 {
+.header img {
   color: #FFF;
-  text-align: center
+  text-align: center;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -40,17 +42,43 @@ blockquote::after {
   padding: 0 5%;
 }
 
-div.two-blocks {
+.content h1 {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #D47855;
+}
+
+div.two-columns {
   display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+div.two-columns > a.block {
+  width: calc(50% - 50px);
 }
 
-div.block {
-  margin: 10px;
+a.block {
+  display: block;
+  text-decoration: none;
+}
+a.block h2 {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #2E2E2E;
+  background-color: #D47855;
+  color: #FFF;
+}
+a.block p {
+  color: #000;
 }
 
-@media only screen and (max-device-width: 812px) {
-  div.two-blocks {
+@media only screen and (max-width: 812px) {
+  div.two-columns {
     display: block;
+  }
+  div.two-columns > a.block {
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
 
