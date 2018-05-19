@@ -1,12 +1,19 @@
 html, body { margin: 0; padding: 0; }
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #373737;
 }
 
 h1, h2, h3 {
   font-family: 'Slabo 27px', serif;
+}
+h2, h3 {
+  margin-top: 2em;
+}
+
+a {
+  color: #D47855;
 }
 
 blockquote {
@@ -29,11 +36,18 @@ blockquote::after {
   background-image: url(../images/header1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .header img {
+  margin-top: -5px;
   color: #FFF;
   text-align: center;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  transition: all .15s ease-in-out;
+}
+.header img:hover {
+  margin-top: 0px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
 .content {
@@ -70,6 +84,29 @@ a.block h2 {
 }
 a.block p {
   color: #000;
+}
+a.block img {
+  /* filter: grayscale(); */
+  /* transition: filter .15s linear; */
+}
+a.block img:hover {
+  /* filter: none; */
+}
+
+div.profile {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+div.profile h3 {
+  margin-top: 0;
+}
+div.profile img {
+  float: left;
+  margin-right: 25px;
+}
+div.profile p {
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 812px) {
