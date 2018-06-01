@@ -74,6 +74,12 @@ div.two-columns > a.block {
 a.block {
   display: block;
   text-decoration: none;
+  cursor: default;
+  border-radius: 3px;
+  overflow: hidden;
+}
+a.block[href] {
+  cursor: pointer;
 }
 a.block h2 {
   margin: 0;
@@ -91,6 +97,48 @@ a.block img {
 }
 a.block img:hover {
   /* filter: none; */
+}
+
+a.block.newsletter {
+  width: calc(50% - 100px);
+  padding: 25px;
+  background-color: #D47855;
+}
+a.block.newsletter h2 {
+  padding: 5px 0;
+  text-align: center;
+}
+a.block.newsletter p {
+  color: #FFF;
+}
+a.block.newsletter input {
+  text-indent: 10px;
+}
+a.block.newsletter input,
+a.block.newsletter button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 3px
+}
+a.block.newsletter button {
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.5);
+  transition: all .1s ease-in-out;
+  transform: translateX(-1px) translateY(-2px);
+  outline: none;
+}
+a.block.newsletter button:hover {
+  transform: translateX(0px) translateY(-1px);
+  box-shadow: 1px 2px 0px 1px rgba(0, 0, 0, 0.5);
+}
+a.block.newsletter button:active {
+  transform: translateX(0px) translateY(0px);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  outline: none;
 }
 
 div.profile {
