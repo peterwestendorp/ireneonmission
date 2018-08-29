@@ -115,6 +115,15 @@ div.two-columns > a.block {
   width: calc(50% - 50px);
 }
 
+div.three-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+div.three-columns > a.block {
+  width: calc(33.3% - 50px);
+}
+
 a.block {
   display: block;
   text-decoration: none;
