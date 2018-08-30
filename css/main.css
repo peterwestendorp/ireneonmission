@@ -211,10 +211,12 @@ div.profile p {
 }
 
 @media only screen and (max-width: 812px) {
-  div.two-columns {
+  div.two-columns,
+  div.three-columns {
     display: block;
   }
-  div.two-columns > a.block {
+  div.two-columns > a.block,
+  div.three-columns > a.block {
     width: 100%;
     margin-bottom: 50px;
   }
