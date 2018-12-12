@@ -61,6 +61,7 @@ blockquote span {
   padding: 0;
   list-style: none;
   transition: margin .25s ease-in-out;
+  animation: peekaboo 1s ease-in-out 2s;
 }
 .header .navigation:hover ul {
   margin: -225px 0 0 0;
@@ -87,11 +88,14 @@ blockquote span {
 }
 .header .navigation label {
   display: block;
-  padding-top: 32px;
+  padding-bottom: 32px;
   background-image: url(../images/menu.svg);
   background-repeat: no-repeat;
-  background-position: center 5px;
+  background-position: center calc(100% - 5px);
   cursor: pointer;
+}
+.header .navigation label img {
+  opacity: 0.6;
 }
 
 .content {
@@ -323,4 +327,18 @@ p.meta {
 }		
 .gauge-container .center .value { 
   font-size: 50px; 
+}
+
+@keyframes peekaboo {
+  0% {
+    margin-top: -246px;
+  }
+
+  50% {
+    margin-top: -225px
+  }
+
+  100% {
+    margin-top: -246px;
+  }
 }
