@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title>
+      Irene on mission
+    </title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="header">
+      <div class="content">
+        <div class="navigation">
+          <input type="checkbox" id="navigation-toggle" class="hidden">
+          <ul tabindex="1">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../aboutme.html">Wie ik ben</a></li>
+            <li><a href="../project.html">Wat ik doe</a></li>
+            <li><a href="../support.html">Steun mij</a></li>
+            <li><a href="../tft.html">Thuis front team</a></li>
+            <li><a href="index.html">Blog</a></li>
+          </ul>
+          <label for="navigation-toggle">
+            <img src="../images/logo.png" alt="Logo On Mission" width="200" height="200">
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <h1>Update leven en werken in Lubango</h1>
+      
+      <p>Beste lezers, in de afgelopen paar weken is het leven hier in Lubango gewoon door gegaan, zoals het
+in Nederland ook doorgaat. Daar horen leuke en minder leuke momenten bij, zoals gezellige
+momenten met teamleden, werk dat veel openingen tot uitbreiding heeft en de aankomst van mijn
+eigen auto hier. Maar ook zijn er de verdrietige dingen, zoals het horen van overlijden van een
+moeder van een aantal jonge kinderen, door kanker. En iets wat niet per se verdrietig is maar wat ik
+wel jammer vind is het tijdelijke vertrek van SIM-teamleden, die op verlof gaan.</p>
+
+<p>Een week geleden heb ik even met mijn teamleider van preventie gesproken over mijn eigen
+functioneren. Ik had zelf zitten denken om het geven van de mondelinge voorlichting v.n.l. aan lokale
+collega’s over te laten, daar mijn Portugees toch minder goed overkomt dan dat van de lokals. Dit
+heeft mijn teamleider liever niet, omdat het vaker in de toekomst voor kan komen dat we
+bijvoorbeeld op moeten splitsen als team vanwege de hoeveelheid voorlichtings bijeenkomsten of
+als er iemand uitvalt vanwege vakantie/ziekte dan ben ik ook nodig. Hmm…nog even goed aan de
+bak met mijn Portugees dus. Tot nu toe hebben we ook al twee aan twee de voorlichtingen in kleine
+kliniekjes door Lubango heen gegeven. Twee van ons team gaven de voorlichting aan de
+verpleegkundigen en twee aan de wachtende patiënten, waaronder vaak veel moeders met kinderen
+&amp; zwangeren zijn. En soms vertaalde 1 van de collega’s alles naar de lokale stamtaal, afhankelijk van
+de doelgroep.</p>
+
+<p>Met de komst van mijn auto heb ik meer vrijheid gekregen om de stad te ontdekken en ook om
+’s avonds bijvoorbeeld nog SIM collega’s op te zoeken, want de avonden waren nogal stilletjes. Nou
+zul je denken haha mooi de tijd om meer Portugees te leren, dat lukt ook af en toe, maar over het
+algemeen is m’n hoofd te moe om hier nog over na te denken. Tegelijkertijd is met de komst van
+mijn auto ook een meer ‘agressieve’ rijstijl gekomen, i.p.v. defensief, zoals we in Nederland leren.
+Dus dit is de overtreffende trap, leer je jezelf dit niet aan, dan kun je gewoon uren blijven wachten :-)
+Ook hoop ik dat ik nog twee ogen aan de zijkant van mijn hoofd krijg, want heel regelmatig duikt er
+plotseling een motorbike links of rechts van me op. Zij hebben weinig-geen rijlessen gehad wat voor
+de nodige risicovolle situaties zorgt. In het donker rijden is ook een uitdaging, omdat de
+straatverlichting niet altijd optimaal is en mensen denken dat er overal zeebrapaden zijn…welke wel
+steeds meer opduiken in de stad en ook steeds meer gebruikt worden, maar nog niet door iedereen
+helaas. Het is daarom prettig om bijna altijd wel een collega of een vriendin naast me in de auto te
+hebben. Het is overigens een heel goed teken dat de provinciale overheid steeds meer energie steekt
+in het verbeteren van de wegen in de stad, de bevolking is hier ook goed over te spreken. Afgelopen
+week nog waren er ineens behoorlijk grote gaten gedicht!</p>
+
+<p>Ze zeggen hier dat de wintertijd is aangebroken, ook al merk ik er overdag nog niet veel van, het
+voelt zelfs warmer aan dan in het regenseizoen. Het klopt wel dat het ‘s avonds en ‘s ochtends frisser
+is. Het kan in Juli en Augustus ‘s nachts tegen het vriespunt aanliggen.</p>
+
+<p>Ik ga afsluiten…met te zeggen dat ik uit kijk naar de komende maand, waarin het niet alleen kouder
+gaat worden, maar waarin we ook 2 weken bezoek ontvangen van de organisatie Hope For Our
+Sisters, die o.a. het preventie- en after-care programma financieel dragen.</p>
+
+<p>Beijinhos!</p>
+
+      <p>Irene</p>
+
+      <div class="grid">
+        <a class="block c3" href="images/20190402/IMG-20190328-WA0013.jpg" target="_blank">
+          <img src="images/20190402/IMG-20190328-WA0013.jpg" width="250" alt="">
+        </a>
+
+        <a class="block c3" href="images/20190402/IMG-20190328-WA0019.jpg" target="_blank">
+          <img src="images/20190402/IMG-20190328-WA0019.jpg" width="250" alt="">
+        </a>
+
+        <a class="block c3" href="images/20190402/IMG-20190328-WA0012.jpg" target="_blank">
+          <img src="images/20190402/IMG-20190328-WA0012.jpg" width="250" alt="">
+        </a>
+
+        <a class="block c3" href="images/20190402/2.jpg" target="_blank">
+          <img src="images/20190402/2.jpg" width="250" alt="">
+        </a>
+      </div>
+
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+        // this.page.url = 'ireneonmission.com';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '20190828'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://ireneonmission.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+      </script>
+
+      <div class="grid">
+        <a class="block c6" href="../aboutme.html">
+          <h2>Wie ik ben</h2>
+          <img src="../images/irene.jpg" width="100%" alt="">
+        </a>
+        <a class="block c6" href="../support.html">
+          <h2>Steun mij</h2>
+          <img src="../images/patients2.jpg" width="100%" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="content">
+          &copy; Irene Westendorp 2019
+      </div>
+    </div>
+  </body>
+</html>
