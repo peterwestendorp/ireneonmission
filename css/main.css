@@ -189,6 +189,7 @@ a.block p {
 }
 
 a.block img {
+  width: 100%;
   /* filter: grayscale(); */
   /* transition: filter .15s linear; */
 }
